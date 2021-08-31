@@ -9,9 +9,10 @@ const routes: Routes = [
   {path:"home", component:HomePageComponent},
   {path:"contact-page", component:ContactPageComponent},
   {path:"login-page", component:LoginPageComponent},
-  {path:"register-page", component:RegisterPageComponent}
+  {path:"register-page", component:RegisterPageComponent},
+  {path:"**", redirectTo:"home"}
 ];
-
+// path:"**" Es para si no hay direccion (localhost:4200) que redirija a home
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
