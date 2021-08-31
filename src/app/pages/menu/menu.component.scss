@@ -1,0 +1,20 @@
+.fondoAzul{
+    background: -moz-linear-gradient(180deg, rgba(0,3,43,1) 0%, rgba(1,10,133,1) 94%);
+    background: -webkit-linear-gradient(180deg, rgba(0,3,43,1) 0%, rgba(1,10,133,1) 94%);
+    background: linear-gradient(180deg, rgba(0,3,43,1) 0%, rgba(1,10,133,1) 94%);
+
+    color: white;
+}
+
+.navbar-brand{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2rem;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .nav-link.active{
+    color: var(--activo);
+}
+
+.nav-item .nav-link{
+    font-size: 1.1rem;
+}
